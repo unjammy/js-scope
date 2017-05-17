@@ -3,10 +3,12 @@ var isCookieJarOpen = null;
 
 function closeLid() {
   /* answer here */
+  isCookieJarOpen = false;
 }
 
 function openLid() {
   /* answer here */
+  isCookieJarOpen = true;
 }
 
 
