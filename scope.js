@@ -19,7 +19,7 @@ function outerFunction() {
 
   function innerFunction() {
     var world = 'World';
-    return hello + ' ' + world;/* answer here */;
+    return hello + ' ' + world; /* answer here */;
   }
   return innerFunction();
 }
@@ -33,8 +33,8 @@ function addMatrixElements(matrix) {
 
   for(var i = 0; i < matrix.length; i++) {
     /* fix counter variables in the second loop */
-    for(var i = 0; i < matrix[i].length; i++) {
-      result = result + matrix[i][i];
+    for(var j = 0; j < matrix[i].length; j++) {
+      result = result + matrix[i][j];
     }
   }
   return result;
